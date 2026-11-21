@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ws-broker
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: BROKER_TOKEN
+        generateValue: true
