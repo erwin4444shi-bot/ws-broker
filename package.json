@@ -1,0 +1,16 @@
+{
+  "name": "ws-broker",
+  "version": "1.0.0",
+  "description": "Cloud WebSocket broker for mediatoolkit — envelope relay with group routing (Render Free compatible)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/run-tests.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
